@@ -1,0 +1,15 @@
+# Definir a versão do compose
+version: "3"
+# Definir os serviços
+services:
+  # Linha a seguir pode ter qualquer nome
+  app:
+    # Localização do Dockerfile
+    build: .
+    # Comando para execução
+    command: npm start
+    ports:
+      - "3005:3000"
+    # Monitorar a pasta atual (.) e passar para /usr/app
+    volumes:
+      - .:/usr/app
