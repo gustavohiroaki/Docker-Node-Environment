@@ -6,6 +6,8 @@ Neste repositório contém uma simples aplicação, onde roda apenas um hello wo
 
 - Docker Compose
 - Docker
+- npm
+- Instalação das dependências do npm (rodar npm i)
 
 ## Dockerfile
 
